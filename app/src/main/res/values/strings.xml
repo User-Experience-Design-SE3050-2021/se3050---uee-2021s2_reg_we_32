@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">people\'s wave</string>
+
+    <string name="title_activity_flash_screen">flashScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="txtOTFromAccount">From Account</string>
+    <string name="btnOTPay">PAY NOW</string>
+    <string name="txtOTServiceProvider">Service Provider</string>
+    <string name="txtOTAccNum">Account Number</string>
+    <string name="txtOTAmount">Amount</string>
+    <string name="txtOTDate">Date</string>
+    <string name="txtOTDownload">Download Payment Receipt</string>
+    <string name="btnOTResend">RESEND</string>
+    <string name="btnOTCancel">CANCEL</string>
+    <string name="btnOTConfirm">CONFIRM</string>
+    <string name="OTPaymentConfirmation">Payment Confirmation</string>
+    <string name="OTAccName">Personal</string>
+    <string name="OTAccNum">1254-667-23878</string>
+    <string name="OTServiceProvider">Service Provider</string>
+    <string name="ElectricityBoard">Electricity Board</string>
+    <string name="EBAccNum">1254-6237-23878</string>
+    <string name="LKR">LKR</string>
+    <string name="Amount">3500.00</string>
+    <string name="OTDate">11/09/2021</string>
+    <string name="txtOTP">OTP</string>
+    <string name="top_nav_des">Image for top navbar</string>
+    <string name="logo_desc">Image for logo description</string>
+    <string name="hamburger_img">image for hambergur menu</string>
+    <string name="backNav">vector for backword naviagation</string>
+    <string name="tranferAppBar">Transfer Services</string>
+    <string name="trnsButton">transfer service menu button</string>
+    <string name="ibfund">"Interbank fund "</string>
+    <string name="interb">Interbank fund transfer</string>
+    <string name="branchtobranchstring">Branch to branch Transfer</string>
+    <string name="fundTransferString">Fund Transfer</string>
+    <string name="interbankTransfer">Interbank Transfer</string>
+    <string name="oneTimeTransferTopic">One Time Transfer</string>
+    <string name="favTrans">Favourite Transfer</string>
+    <string name="MngFavB">Manage Favourite Beneficiary</string>
+    <string name="managFavouriteBeenficaryTopic">Manage Favourite Beneficiary</string>
+    <string name="Benefiacry_Account_Name_Tag">Beneficiary Account Name</string>
+    <string name="exampleNameBeneficary1">R.K.M Jayantha</string>
+    <string name="BeneficaryAccountNumberTag">Beneficiary Account Number </string>
+    <string name="BeneficaryAccountNumberVal">1234-567-7878</string>
+    <string name="exampleBeneficaryBankTag">Beneficiary Bank</string>
+    <string name="exampleBeneficaryBankAddress">704- Peoples Bank - Duke Street</string>
+    <string name="deleteTag">DELETE</string>
+    <string name="editButtonTag">EDIT</string>
+    <string name="AddNewBeneficaryTag">Add New Beneficiary</string>
+    <string name="OTTitle">One Time Bill Payment</string>
+    <string name="manageFavBills">Manage Favourite Bills</string>
+    <string name="AddNewBillerTag">Add New Payee</string>
+
+
+</resources>

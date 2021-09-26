@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androiddev.peopleswave">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PeoplesWave">
+
+        <activity
+            android:name=".ForgotPassStep4"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotPassStep3"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotPassStep2"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotPassStep1"
+            android:exported="true" />
+        <activity
+            android:name=".SignupStep4"
+            android:exported="true" />
+        <activity
+            android:name=".SignupStep3"
+            android:exported="true" />
+        <activity
+            android:name=".SignupStep2"
+            android:exported="true" />
+        <activity
+            android:name=".SignupStep1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        
+
+
+        <activity android:name=".manageFavouriteBills"></activity>
+        <activity android:name=".addFavoriteBiller"></activity>
+        <activity android:name=".editFavoriteBiller" />
+        <activity android:name=".creditcardService" />
+
+       
+        <activity
+            android:name=".OneTimePaymentConfirmation"
+            android:exported="true" />
+        <activity
+            android:name=".OneTimePaymentMain"
+            android:exported="true" />
+        <activity
+            android:name=".AccountSummaryMain"
+            android:exported="true" />
+        <activity
+            android:name=".ManageFavBenficary"
+            android:exported="true" />
+        <activity
+            android:name=".interbankTransferMenu"
+            android:exported="true" />
+
+
+        <activity
+            android:name=".transferServices"
+            android:exported="true" />
+        <activity
+            android:name=".Menu"
+            android:exported="true" />
+        <activity android:name=".ActivityInitialScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

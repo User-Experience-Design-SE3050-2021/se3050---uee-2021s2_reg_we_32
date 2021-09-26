@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Menu">
+
+    <ImageView
+        android:id="@+id/menu_1"
+        android:layout_width="416dp"
+        android:layout_height="66dp"
+        android:background="@drawable/topbarrectangle"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_background" />
+
+    <ImageView
+        android:id="@+id/menu_2"
+        android:layout_width="304dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="1dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/menu_1"
+        app:layout_constraintEnd_toEndOf="@+id/menu_1"
+        app:layout_constraintTop_toTopOf="@+id/menu_1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/banklogo" />
+
+    <ImageView
+        android:id="@+id/menu_3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/menu_1"
+        app:layout_constraintStart_toStartOf="@+id/menu_1"
+        app:layout_constraintTop_toTopOf="@+id/menu_1"
+        app:srcCompat="@drawable/ic_round_dehaze_24"
+        app:tint="@color/black"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/summaryBox"
+        android:layout_width="172dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
+        app:srcCompat="@drawable/edit_text_border" />
+
+    <ImageView
+        android:id="@+id/transferBox"
+        android:layout_width="172dp"
+        android:layout_height="202dp"
+        android:onClick="navigateToTransferService"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
+        app:srcCompat="@drawable/edit_text_border" />
+
+    <ImageView
+        android:id="@+id/paymentBox"
+        android:layout_width="172dp"
+        android:layout_height="202dp"
+        android:layout_marginTop="40dp"
+        android:onClick="navigateToOneTimePayment"
+        app:layout_constraintEnd_toStartOf="@+id/CreditCardBox"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/summaryBox"
+        app:srcCompat="@drawable/edit_text_border" />
+
+    <ImageView
+        android:id="@+id/CreditCardBox"
+        android:layout_width="172dp"
+        android:layout_height="202dp"
+        android:layout_marginTop="40dp"
+        android:onClick="navigateToCreditCardService"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/paymentBox"
+        app:layout_constraintTop_toBottomOf="@+id/transferBox"
+        app:srcCompat="@drawable/edit_text_border" />
+
+    <TextView
+        android:id="@+id/transferServiceMenu"
+
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+
+        android:layout_marginTop="8dp"
+        android:onClick="navigateToTransferService"
+        android:text="Transfer Services"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/transferBox"
+        app:layout_constraintStart_toStartOf="@+id/transferBox"
+        app:layout_constraintTop_toBottomOf="@+id/transferIcon" />
+
+    <ImageView
+        android:id="@+id/transferIcon"
+        android:layout_width="164dp"
+        android:layout_height="117dp"
+        android:onClick="navigateToTransferService"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229"
+        app:srcCompat="@drawable/transfer" />
+
+    <ImageView
+        android:id="@+id/SummaryIcon"
+        android:layout_width="167dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@drawable/summary" />
+
+    <TextView
+        android:id="@+id/AccSummaryMenu"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Account Summary"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/SummaryIcon"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/summaryBox"
+        app:layout_constraintTop_toBottomOf="@+id/SummaryIcon" />
+
+    <ImageView
+        android:id="@+id/PaymentIcon"
+        android:layout_width="167dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/paymentBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/paymentBox"
+        app:srcCompat="@drawable/payment" />
+
+    <TextView
+        android:id="@+id/PaymentMenu"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:text="Payment Services"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/PaymentIcon"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/PaymentIcon"
+        app:layout_constraintTop_toBottomOf="@+id/PaymentIcon" />
+
+    <TextView
+        android:id="@+id/CreditCardMenu"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:onClick="navigateToCreditCardService"
+        android:text="Credit Card Services"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/CreditCardBox"
+        app:layout_constraintStart_toStartOf="@+id/CreditCardBox"
+        app:layout_constraintTop_toBottomOf="@+id/creditCardIcon" />
+
+    <ImageView
+        android:id="@+id/creditCardIcon"
+        android:layout_width="152dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="20dp"
+        android:onClick="navigateToCreditCardService"
+        app:layout_constraintEnd_toEndOf="@+id/CreditCardBox"
+        app:layout_constraintStart_toStartOf="@+id/CreditCardBox"
+        app:layout_constraintTop_toTopOf="@+id/CreditCardBox"
+        app:srcCompat="@drawable/creditcard" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
