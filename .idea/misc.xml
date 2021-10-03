@@ -25,20 +25,34 @@
         <entry key="..\:/Users/thari/AndroidStudioProjects/UEE_32/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/thari/AndroidStudioProjects/UEE_32/app/src/main/res/layout/activity_menu.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/thari/AndroidStudioProjects/UEE_32/app/src/main/res/layout/activity_tranfer_services.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/se3050---uee-2021s2_reg_we_32/app/src/main/res/drawable/bottomnavbackground.xml" value="0.14635416666666667" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/se3050---uee-2021s2_reg_we_32/app/src/main/res/drawable/button_border.xml" value="0.14635416666666667" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/se3050---uee-2021s2_reg_we_32/app/src/main/res/drawable/menuitemrectangle.xml" value="0.14635416666666667" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/se3050---uee-2021s2_reg_we_32/app/src/main/res/drawable/topbarrectangle.xml" value="0.14635416666666667" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/se3050---uee-2021s2_reg_we_32/app/src/main/res/drawable/topicbarrectangle.xml" value="0.14635416666666667" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/se3050---uee-2021s2_reg_we_32/app/src/main/res/drawable/topmenuitem.xml" value="0.14635416666666667" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/se3050---uee-2021s2_reg_we_32/app/src/main/res/drawable/whiterectangle.xml" value="0.14635416666666667" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/se3050---uee-2021s2_reg_we_32/app/src/main/res/font/test.xml" value="0.22592592592592592" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_initial_screen.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_tranfer_services.xml" value="0.4" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/drawable/button_border.xml" value="0.2890625" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/drawable/dropdown_background.xml" value="0.2890625" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/drawable/edit_text_border.xml" value="0.2890625" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_account_summary_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_edit_favorite_biller.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_forgot_pass_step1.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_forgot_pass_step2.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_forgot_pass_step3.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_forgot_pass_step4.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_initial_screen.xml" value="0.25" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_interbank_transfer_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_manage_fav_benficary.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_manage_favourite_bills.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_one_time_payment_confirmation.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_one_time_payment_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_signup_step1.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_signup_step2.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_signup_step3.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_signup_step4.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/activity_tranfer_services.xml" value="0.27291666666666664" />
+        <entry key="..\:/se3050---uee-2021s2_reg_we_32/app/src/main/res/layout/favourite_bill_card_layout.xml" value="0.27291666666666664" />
+
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
