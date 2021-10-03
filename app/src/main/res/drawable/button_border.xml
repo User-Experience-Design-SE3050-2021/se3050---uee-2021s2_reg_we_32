@@ -4,9 +4,10 @@
 
     <solid
         android:color="@color/theme_color"
+
         />
     <corners
-        android:radius="10dp"
+        android:radius="16dp"
         />
 
 </shape>

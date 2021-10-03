@@ -66,6 +66,11 @@
     <string name="Home_val">Home</string>
     <string name="Back_val">Back</string>
     <string name="Settings_val">Settings</string>
+    <string name="OTT">One Time Transfer</string>
+    <string name="OTTDesc">Fund Transfer to unregistered accounts</string>
+    <string name="FavITB">Favourite Interbank Transfer</string>
+    <string name="facBTDesc">"Fund transfer to registered  accounts "</string>
+    <string name="favBenDesc"><![CDATA["Add,Edit  & Delete your Favourite Beneficary "]]></string>
 
 
 </resources>

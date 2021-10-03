@@ -44,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/poppins_bold"
+            android:fontFamily="@font/poppins_semibold"
             android:text="@string/tranferAppBar"
             android:textColor="@color/theme_color"
             android:textSize="32sp"
@@ -143,8 +143,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="406dp"
+        android:layout_height="304dp"
         android:layout_marginTop="28dp"
         android:orientation="vertical"
         android:paddingStart="24dp"
@@ -165,10 +165,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/poppins_bold"
+                android:fontFamily="@font/poppins"
                 android:text="@string/fundTransferString"
                 android:textColor="#000000"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView12N"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -178,10 +178,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="1dp"
-                android:fontFamily="@font/poppins_bold"
+                android:fontFamily="@font/poppins"
                 android:text="@string/fundTransferDetails"
                 android:textColor="#858585"
-                android:textSize="10sp"
+                android:textSize="12sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView12N"
                 app:layout_constraintTop_toBottomOf="@+id/textViewN" />
 
@@ -203,7 +203,8 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_marginBottom="16dp"
-            android:background="@drawable/whiterectangle">
+            android:background="@drawable/whiterectangle"
+            android:onClick="navigateToInterBank">
 
             <TextView
                 android:id="@+id/textViewN1"
@@ -211,10 +212,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/poppins_bold"
+                android:fontFamily="@font/poppins"
                 android:text="@string/interb"
                 android:textColor="#000000"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView12N1"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -224,10 +225,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="1dp"
-                android:fontFamily="@font/poppins_bold"
+                android:fontFamily="@font/poppins"
                 android:text="@string/localTransfer"
                 android:textColor="#858585"
-                android:textSize="10sp"
+                android:textSize="12sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView12N1"
                 app:layout_constraintTop_toBottomOf="@+id/textViewN1" />
 
@@ -246,8 +247,8 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="@drawable/whiterectangle">
 
             <TextView
@@ -256,23 +257,23 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/poppins_bold"
+                android:fontFamily="@font/poppins"
                 android:text="@string/branchtobranchstring"
                 android:textColor="#000000"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView12"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
+                android:layout_width="228dp"
+                android:layout_height="40dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="1dp"
-                android:fontFamily="@font/poppins_bold"
+                android:fontFamily="@font/poppins"
                 android:text="@string/btbDescription"
                 android:textColor="#858585"
-                android:textSize="10sp"
+                android:textSize="12sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView12"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
