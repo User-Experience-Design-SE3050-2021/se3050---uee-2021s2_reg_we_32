@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#F5F5F5"
     tools:context=".Menu">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -56,11 +56,10 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:orientation="vertical"
+        android:id="@+id/linearLayoutRaw1"
+        android:layout_width="406dp"
+        android:layout_height="234dp"
+        android:layout_marginTop="16dp"
         android:paddingStart="24dp"
         android:paddingEnd="24dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,209 +69,188 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/acc_sum"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginBottom="16dp"
+            android:layout_width="170dp"
+            android:layout_height="221dp"
+            android:layout_marginRight="16dp"
             android:background="@drawable/whiterectangle">
 
             <TextView
                 android:id="@+id/textViewN"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="20dp"
+                android:layout_width="145dp"
+                android:layout_height="62dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="Account Summary"
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="16sp"
-                app:layout_constraintStart_toEndOf="@+id/imageView12N"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView2N"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="1dp"
-                android:fontFamily="@font/poppins_bold"
-                android:text="View Your Account Summary"
-                android:textColor="#858585"
-                android:textSize="10sp"
-                app:layout_constraintStart_toEndOf="@+id/imageView12N"
-                app:layout_constraintTop_toBottomOf="@+id/textViewN" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12N" />
 
             <ImageView
                 android:id="@+id/imageView12N"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="16dp"
+                android:layout_width="99dp"
+                android:layout_height="99dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.058"
                 app:srcCompat="@drawable/ic_acc_summary"
                 tools:ignore="VectorDrawableCompat" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/trns_service"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginBottom="16dp"
+            android:layout_width="170dp"
+            android:layout_height="221dp"
+            android:layout_marginRight="16dp"
             android:background="@drawable/whiterectangle"
-            android:onClick="navigateToTransferService">
+            android:onClick="navigateToTransferService"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
                 android:id="@+id/textViewN1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="20dp"
+                android:layout_width="129dp"
+                android:layout_height="50dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="Transfer Services"
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="16sp"
-                app:layout_constraintStart_toEndOf="@+id/imageView12N1"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView2N1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="1dp"
-                android:fontFamily="@font/poppins_bold"
-                android:text="Transfer to anywhere"
-                android:textColor="#858585"
-                android:textSize="10sp"
-                app:layout_constraintStart_toEndOf="@+id/imageView12N1"
-                app:layout_constraintTop_toBottomOf="@+id/textViewN1" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12N1" />
 
             <ImageView
                 android:id="@+id/imageView12N1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="16dp"
+                android:layout_width="99dp"
+                android:layout_height="99dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
                 app:srcCompat="@drawable/ic_money_trans"
                 tools:ignore="VectorDrawableCompat" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutRaw2"
+        android:layout_width="406dp"
+        android:layout_height="234dp"
+        android:layout_marginTop="8dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutRaw1">
+
+
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/creditCard"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:id="@+id/paymentService"
+            android:layout_width="170dp"
+            android:layout_height="221dp"
+            android:layout_marginRight="16dp"
             android:background="@drawable/whiterectangle"
-            android:onClick="navigateToCreditCardService">
+            android:onClick="navigateToTransferService"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="20dp"
+                android:id="@+id/textViewps"
+                android:layout_width="129dp"
+                android:layout_height="50dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Credit Card Services"
+                android:text="Payment Services"
+                android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="16sp"
-                app:layout_constraintStart_toEndOf="@+id/imageView12"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="1dp"
-                android:fontFamily="@font/poppins_bold"
-                android:text="Do Your any transaction"
-                android:textColor="#858585"
-                android:textSize="10sp"
-                app:layout_constraintStart_toEndOf="@+id/imageView12"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewps" />
 
             <ImageView
-                android:id="@+id/imageView12"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="16dp"
+                android:id="@+id/imageViewps"
+                android:layout_width="99dp"
+                android:layout_height="99dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/ic_payment_s"
+                tools:ignore="VectorDrawableCompat" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/creditCard"
+            android:layout_width="170dp"
+            android:layout_height="221dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/whiterectangle">
+
+            <TextView
+                android:id="@+id/textViewCc"
+                android:layout_width="145dp"
+                android:layout_height="62dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Credit Card Services"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewCC" />
+
+            <ImageView
+                android:id="@+id/imageViewCC"
+                android:layout_width="99dp"
+                android:layout_height="99dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.058"
                 app:srcCompat="@drawable/ic_credit_card"
                 tools:ignore="VectorDrawableCompat" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/paymentService"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:background="@drawable/whiterectangle"
-            android:onClick="navigateToOneTimePayment">
-
-            <TextView
-                android:id="@+id/textViewp1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/poppins_bold"
-                android:text="Payment Services"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintStart_toEndOf="@+id/imageViewp3"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textViewp2"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="1dp"
-                android:fontFamily="@font/poppins_bold"
-                android:text="Make your any payment"
-                android:textColor="#858585"
-                android:textSize="10sp"
-                app:layout_constraintStart_toEndOf="@+id/imageViewp3"
-                app:layout_constraintTop_toBottomOf="@+id/textViewp1" />
-
-            <ImageView
-                android:id="@+id/imageViewp3"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginBottom="16dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_payment_s"
-                tools:ignore="VectorDrawableCompat" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="0dp"
-        android:layout_height="167dp"
+        android:layout_width="412dp"
+        android:layout_height="92dp"
         android:layout_marginTop="114dp"
         android:background="@drawable/bottomnavbackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutRaw2"
         app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
-            android:layout_width="404dp"
-            android:layout_height="108dp"
+            android:layout_width="401dp"
+            android:layout_height="92dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
