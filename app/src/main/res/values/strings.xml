@@ -38,8 +38,8 @@
     <string name="tranferAppBar">Transfer Services</string>
     <string name="trnsButton">transfer service menu button</string>
     <string name="ibfund">"Interbank fund "</string>
-    <string name="interb">Interbank fund transfer</string>
-    <string name="branchtobranchstring">Branch to branch Transfer</string>
+    <string name="interb">Interbank Fund Transfer</string>
+    <string name="branchtobranchstring">Branch to Branch Transfer</string>
     <string name="fundTransferString">Fund Transfer</string>
     <string name="interbankTransfer">Interbank Transfer</string>
     <string name="oneTimeTransferTopic">One Time Transfer</string>
@@ -58,6 +58,14 @@
     <string name="OTTitle">One Time Bill Payment</string>
     <string name="manageFavBills">Manage Favourite Bills</string>
     <string name="AddNewBillerTag">Add New Payee</string>
+    <string name="fundTransferDetails">Transfer funds to peoples Bank account</string>
+    <string name="localTransfer">Transfer to local bank accounts</string>
+    <string name="btbDescription">Transfer to a non account holding person</string>
+    <string name="calc">Calculator</string>
+    <string name="fav">Favourites</string>
+    <string name="Home_val">Home</string>
+    <string name="Back_val">Back</string>
+    <string name="Settings_val">Settings</string>
 
 
 </resources>
