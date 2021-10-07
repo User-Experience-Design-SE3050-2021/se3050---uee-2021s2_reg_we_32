@@ -32,4 +32,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intentFP);
 
     }
+
+    //navigate to signup
+    public void navigateToSignup(View view){
+        Intent intentSignup =  new Intent(this,SignupStep1.class);
+        startActivity(intentSignup);
+    }
 }

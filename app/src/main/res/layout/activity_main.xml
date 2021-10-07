@@ -21,8 +21,9 @@
         android:id="@+id/btnLogin"
         android:layout_width="295dp"
         android:layout_height="58dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/button_border"
+        android:fontFamily="@font/poppins"
         android:onClick="navigateToMenu"
         android:text="Login"
         android:textAllCaps="false"
@@ -31,7 +32,7 @@
         app:backgroundTint="@color/theme_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/loginFotgotPass" />
 
     <EditText
         android:id="@+id/loginUsername"
@@ -77,13 +78,46 @@
         android:id="@+id/loginFotgotPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
         android:onClick="navigateToForgetPass"
         android:text="Forgotton Password?"
         android:textColor="#0B0B0B"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
+
+    <TextView
+        android:id="@+id/acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="112dp"
+        android:fontFamily="@font/poppins"
+        android:text="Don't have an account?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        app:layout_constraintVertical_bias="0.876" />
+
+    <TextView
+        android:id="@+id/toSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="@font/poppins"
+        android:onClick="navigateToSignup"
+        android:text="Sign up"
+        android:textColor="#1565C0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/acc" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

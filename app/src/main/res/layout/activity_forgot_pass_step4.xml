@@ -22,6 +22,7 @@
         android:layout_width="148dp"
         android:layout_height="90dp"
         android:layout_marginTop="48dp"
+        android:fontFamily="@font/poppins"
         android:text="Forget Password"
         android:textColor="#000000"
         android:textSize="28sp"
@@ -52,22 +53,25 @@
         app:srcCompat="@drawable/ic_baseline_check_circle_24"
         tools:ignore="VectorDrawableCompat" />
 
+
     <TextView
         android:id="@+id/succ_fp4"
-        android:layout_width="219dp"
-        android:layout_height="59dp"
+        android:layout_width="221dp"
+        android:layout_height="76dp"
         android:layout_marginStart="2dp"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="4dp"
+        android:fontFamily="@font/poppins"
         android:text="Password Change Successfully !"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/ck_fp_s4"
         app:layout_constraintEnd_toEndOf="@+id/ck_fp_s4"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="@+id/ck_fp_s4"
-        app:layout_constraintTop_toBottomOf="@+id/fp_s4" />
-
+        app:layout_constraintTop_toBottomOf="@+id/fp_s4"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btn_cont_f4"
@@ -75,6 +79,7 @@
         android:layout_height="58dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_border"
+        android:fontFamily="@font/poppins"
         android:text="Continue"
         android:textSize="20sp"
         android:typeface="sans"
