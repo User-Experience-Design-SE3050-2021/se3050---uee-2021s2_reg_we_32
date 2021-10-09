@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "281968367147",
+    "firebase_url": "https://people-s-wave-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "people-s-wave",
+    "storage_bucket": "people-s-wave.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281968367147:android:d1bcf1f7e8447a2f28fc6e",
+        "android_client_info": {
+          "package_name": "com.androiddev.peopleswave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281968367147-s9dhn24bu9ul4hpcb7s4rlnbb4htvpsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmndCifcq4Y-baheKvwHBPZYJ1qmvofg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281968367147-s9dhn24bu9ul4hpcb7s4rlnbb4htvpsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
