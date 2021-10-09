@@ -44,6 +44,7 @@ public class ManageFavBenficary extends AppCompatActivity {
         databaseBeneficiary.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                beneficiaries.clear();
                 for(DataSnapshot dataSnapshot: snapshot.getChildren()){
                     Log.d("DESC","SOMETHING");
                     Beneficiary beneficiary = dataSnapshot.getValue(Beneficiary.class);
@@ -62,22 +63,7 @@ public class ManageFavBenficary extends AppCompatActivity {
             }
         });
 
-//        databaseBeneficiary.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot snapshot) {
-//                beneficiaries.clear();
-//                for(DataSnapshot dataSnapshot : snapshot.getChildren()){
-//                    Beneficiary beneficiary = dataSnapshot.getValue(Beneficiary.class);
-//                    beneficiaries.add(beneficiary);
-//                }
-//                //Log.d("DESC", String.valueOf(beneficiaries.size()));
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError error) {
-//
-//            }
-//        });
+
     }
 
     public void navigateToAddBeneficiary(View view){
