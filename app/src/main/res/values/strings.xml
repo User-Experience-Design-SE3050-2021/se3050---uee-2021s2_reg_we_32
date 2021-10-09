@@ -71,6 +71,21 @@
     <string name="FavITB">Favourite Interbank Transfer</string>
     <string name="facBTDesc">"Fund transfer to registered  accounts "</string>
     <string name="favBenDesc"><![CDATA["Add,Edit  & Delete your Favourite Beneficary "]]></string>
+    <string name="Welcome">Welcome to Peoples Wave</string>
+    <string name="PaymentOptionLable">Payment Option *</string>
+    <string name="beneficaryAccountNumber">Account Number</string>
+    <string name="account">Select yout account *</string>
+    <string name="SelectBranchLable">Select Branch *</string>
+    <string name="nextBtn">Next</string>
+
+    <string-array name="paymentMethods">
+        <item>SELECT PAYMENT OPTION</item>
+        <item>ACC -001</item>
+        <item>ACC 002</item>
+        <item>Earth</item>
+    </string-array>
+    <string name="title_activity_add_ben_step2">addBenStep2</string>
+    <string name="closeBtn">Close</string>
 
 
 </resources>
