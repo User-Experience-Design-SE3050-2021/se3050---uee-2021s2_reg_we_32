@@ -75,17 +75,44 @@
     <string name="PaymentOptionLable">Payment Option *</string>
     <string name="beneficaryAccountNumber">Account Number</string>
     <string name="account">Select yout account *</string>
-    <string name="SelectBranchLable">Select Branch *</string>
+    <string name="SelectBranchLable">Beneficiary Branch *</string>
     <string name="nextBtn">Next</string>
 
     <string-array name="paymentMethods">
         <item>SELECT PAYMENT OPTION</item>
-        <item>ACC -001</item>
-        <item>ACC 002</item>
-        <item>Earth</item>
+        <item>Lanka Pay Online </item>
+        <item>Off line  paper payments</item>
+    </string-array>
+
+    <string-array name="beneficiaryBanks">
+        <item>SELECT BANK</item>
+        <item>Peoples Bank</item>
+        <item>HNB (PVT LTD)</item>
+        <item>Commercial Bank (PVT LTD)</item>
+        <item>Sampath Bank (PVT LTD)</item>
+        <item>BOC (PVT LTD)</item>
+    </string-array>
+
+    <string-array name="beneficiaryBranches">
+        <item>SELECT BRANCH</item>
+        <item>Gampaha 001</item>
+        <item>Ja-Ela</item>
+        <item>Raddolugama 02</item>
+        <item>Duke Street Colombo</item>
+        <item>Kadawatha 001</item>
+        <item>Kadawatha 002</item>
     </string-array>
     <string name="title_activity_add_ben_step2">addBenStep2</string>
     <string name="closeBtn">Close</string>
+    <string name="selecBenkBank">Beneficiary Bank * </string>
+    <string name="accountNumberHint">0012-xxx-xxx</string>
+    <string name="benAccountNameString">Beneficiary Account  Name *</string>
+    <string name="benAccountNumberString">Beneficiary Account Number*</string>
+    <string name="beneficiaryEmail">Beneficiary Email </string>
+    <string name="beneficiaryMobile">Beneficiary Mobile </string>
+    <string name="beneficiaryMobileHint">+94xx xxx xxx </string>
+    <string name="otp">OTP</string>
+    <string name="Req">Request OTP</string>
 
 
 </resources>
