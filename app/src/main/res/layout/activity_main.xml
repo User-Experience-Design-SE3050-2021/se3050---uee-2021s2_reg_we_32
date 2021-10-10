@@ -70,7 +70,9 @@
         android:ems="10"
         android:hint=" Password"
         android:inputType="textPassword"
+
         android:paddingLeft="10dp"
+ main
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,14 +82,13 @@
         android:id="@+id/loginFotgotPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/poppins"
         android:onClick="navigateToForgetPass"
         android:text="Forgotton Password?"
         android:textColor="#0B0B0B"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.737"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
 
@@ -108,14 +109,18 @@
         android:id="@+id/toSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:layout_marginStart="1dp"
         android:layout_marginBottom="112dp"
+
         android:fontFamily="@font/poppins"
         android:onClick="navigateToSignup"
         android:text="Sign up"
         android:textColor="#1565C0"
         android:textSize="20sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/acc" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -113,6 +113,10 @@
     <string name="beneficiaryMobileHint">+94xx xxx xxx </string>
     <string name="otp">OTP</string>
     <string name="Req">Request OTP</string>
+    <string name="editBenficary">Edit Beneficary</string>
+    <string name="benDescription">Beneficiary Details</string>
+    <string name="editBtn">"Edit "</string>
+    <string name="updateTag">Update Details</string>
 
 
 </resources>
