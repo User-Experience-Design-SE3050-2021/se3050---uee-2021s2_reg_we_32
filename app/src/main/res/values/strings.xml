@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">people\'s wave</string>
+
+    <string name="title_activity_flash_screen">flashScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="txtOTFromAccount">From Account</string>
+    <string name="btnOTPay">PAY NOW</string>
+    <string name="txtOTServiceProvider">Service Provider</string>
+    <string name="txtOTAccNum">Account Number</string>
+    <string name="txtOTAmount">Amount</string>
+    <string name="txtOTDate">Date</string>
+    <string name="txtOTDownload">Download Payment Receipt</string>
+    <string name="btnOTResend">RESEND</string>
+    <string name="btnOTCancel">CANCEL</string>
+    <string name="btnOTConfirm">CONFIRM</string>
+    <string name="OTPaymentConfirmation">Payment Confirmation</string>
+    <string name="OTAccName">Personal</string>
+    <string name="OTAccNum">1254-667-23878</string>
+    <string name="OTServiceProvider">Service Provider</string>
+    <string name="ElectricityBoard">Electricity Board</string>
+    <string name="EBAccNum">1254-6237-23878</string>
+    <string name="LKR">LKR</string>
+    <string name="Amount">3500.00</string>
+    <string name="OTDate">11/09/2021</string>
+    <string name="txtOTP">OTP</string>
+    <string name="top_nav_des">Image for top navbar</string>
+    <string name="logo_desc">Image for logo description</string>
+    <string name="hamburger_img">image for hambergur menu</string>
+    <string name="backNav">vector for backword naviagation</string>
+    <string name="tranferAppBar">Transfer Services</string>
+    <string name="trnsButton">transfer service menu button</string>
+    <string name="ibfund">"Interbank fund "</string>
+    <string name="interb">Interbank Fund Transfer</string>
+    <string name="branchtobranchstring">Branch to Branch Transfer</string>
+    <string name="fundTransferString">Fund Transfer</string>
+    <string name="interbankTransfer">Interbank Transfer</string>
+    <string name="oneTimeTransferTopic">One Time Transfer</string>
+    <string name="favTrans">Favourite Transfer</string>
+    <string name="MngFavB">Manage Favourite Beneficiary</string>
+    <string name="managFavouriteBeenficaryTopic">Manage Favourite Beneficiary</string>
+    <string name="Benefiacry_Account_Name_Tag">Beneficiary Account Name</string>
+    <string name="exampleNameBeneficary1">R.K.M Jayantha</string>
+    <string name="BeneficaryAccountNumberTag">Beneficiary Account Number </string>
+    <string name="BeneficaryAccountNumberVal">1234-567-7878</string>
+    <string name="exampleBeneficaryBankTag">Beneficiary Bank</string>
+    <string name="exampleBeneficaryBankAddress">704- Peoples Bank - Duke Street</string>
+    <string name="deleteTag">DELETE</string>
+    <string name="editButtonTag">EDIT</string>
+    <string name="AddNewBeneficaryTag">Add New Beneficiary</string>
+    <string name="OTTitle">One Time Bill Payment</string>
+    <string name="manageFavBills">Manage Favourite Bills</string>
+    <string name="AddNewBillerTag">Add New Payee</string>
+    <string name="fundTransferDetails">Transfer funds to peoples Bank account</string>
+    <string name="localTransfer">Transfer to local bank accounts</string>
+    <string name="btbDescription">Transfer to a non account holding person</string>
+    <string name="calc">Calculator</string>
+    <string name="fav">Favourites</string>
+    <string name="Home_val">Home</string>
+    <string name="Back_val">Back</string>
+    <string name="Settings_val">Settings</string>
+    <string name="OTT">One Time Transfer</string>
+    <string name="OTTDesc">Fund Transfer to unregistered accounts</string>
+    <string name="FavITB">Favourite Interbank Transfer</string>
+    <string name="facBTDesc">"Fund transfer to registered  accounts "</string>
+    <string name="favBenDesc"><![CDATA["Add,Edit  & Delete your Favourite Beneficary "]]></string>
+    <string name="Welcome">Welcome to Peoples Wave</string>
+    <string name="PaymentOptionLable">Payment Option *</string>
+    <string name="beneficaryAccountNumber">Account Number</string>
+    <string name="account">Select yout account *</string>
+    <string name="SelectBranchLable">Beneficiary Branch *</string>
+    <string name="nextBtn">Next</string>
+
+    <string-array name="paymentMethods">
+        <item>SELECT PAYMENT OPTION</item>
+        <item>Lanka Pay Online </item>
+        <item>Off line  paper payments</item>
+    </string-array>
+
+    <string-array name="beneficiaryBanks">
+        <item>SELECT BANK</item>
+        <item>Peoples Bank</item>
+        <item>HNB (PVT LTD)</item>
+        <item>Commercial Bank (PVT LTD)</item>
+        <item>Sampath Bank (PVT LTD)</item>
+        <item>BOC (PVT LTD)</item>
+    </string-array>
+
+    <string-array name="beneficiaryBranches">
+        <item>SELECT BRANCH</item>
+        <item>Gampaha 001</item>
+        <item>Ja-Ela</item>
+        <item>Raddolugama 02</item>
+        <item>Duke Street Colombo</item>
+        <item>Kadawatha 001</item>
+        <item>Kadawatha 002</item>
+    </string-array>
+    <string name="title_activity_add_ben_step2">addBenStep2</string>
+    <string name="closeBtn">Close</string>
+    <string name="selecBenkBank">Beneficiary Bank * </string>
+    <string name="accountNumberHint">0012-xxx-xxx</string>
+    <string name="benAccountNameString">Beneficiary Account  Name *</string>
+    <string name="benAccountNumberString">Beneficiary Account Number*</string>
+    <string name="beneficiaryEmail">Beneficiary Email </string>
+    <string name="beneficiaryMobile">Beneficiary Mobile </string>
+    <string name="beneficiaryMobileHint">+94xx xxx xxx </string>
+    <string name="otp">OTP</string>
+    <string name="Req">Request OTP</string>
+
+
+</resources>

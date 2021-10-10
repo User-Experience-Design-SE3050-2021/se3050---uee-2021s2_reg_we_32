@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityInitialScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="125dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/peopleswaveicon" />
+
+    <Button
+        android:id="@+id/floginbtn"
+        android:layout_width="295dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_border"
+        android:onClick="navigateToLogin"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textColor="#FBFAF9"
+        android:textSize="24sp"
+        app:backgroundTint="@color/theme_color"
+        app:icon="@drawable/login"
+        app:iconSize="30dp"
+        app:iconTint="#FBFAF9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="295dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/signup_btn_border"
+        android:onClick="navigateToSignup"
+        android:text="SIGNUP"
+        android:textColor="#FBFAF9"
+        android:textSize="24sp"
+        app:backgroundTint="@color/logo_background"
+        app:icon="@drawable/signin"
+        app:iconSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floginbtn"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="copyright Fantastic 2021 All right reserved"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
