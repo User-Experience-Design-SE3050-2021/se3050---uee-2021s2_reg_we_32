@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="navigateToLogin"
     tools:context=".ForgotPassStep4">
 
     <ImageView
@@ -80,6 +81,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/button_border"
         android:fontFamily="@font/poppins"
+        android:onClick="navigateToLogin2"
         android:text="Continue"
         android:textSize="20sp"
         android:typeface="sans"
