@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PeoplesWave">
         <activity
+            android:name=".EditBeneficiary"
+            android:exported="true" />
+        <activity
+            android:name=".ViewBeneficaryDetails"
+            android:exported="true" />
+        <activity
             android:name=".addNewBenStep3"
             android:exported="true" />
         <activity
@@ -75,7 +81,6 @@
         <activity
             android:name=".Menu"
             android:exported="true" />
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

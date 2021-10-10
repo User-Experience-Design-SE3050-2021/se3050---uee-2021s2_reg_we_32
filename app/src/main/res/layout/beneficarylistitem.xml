@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="229dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="20dp"
@@ -24,7 +25,8 @@
             android:paddingStart="40dp"
             android:paddingTop="10dp"
             android:text="@string/Benefiacry_Account_Name_Tag"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textViewBenName"
@@ -32,7 +34,8 @@
             android:layout_height="wrap_content"
             android:paddingStart="40dp"
             android:text="@string/exampleNameBeneficary1"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView6"
@@ -41,7 +44,8 @@
             android:layout_marginTop="15dp"
             android:paddingStart="40dp"
             android:text="@string/BeneficaryAccountNumberTag"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textViewBenAccountNumber"
@@ -49,7 +53,8 @@
             android:layout_height="wrap_content"
             android:paddingStart="40dp"
             android:text="@string/BeneficaryAccountNumberVal"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView8"
@@ -58,7 +63,8 @@
             android:layout_marginTop="15dp"
             android:paddingStart="40dp"
             android:text="@string/exampleBeneficaryBankTag"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textViewBenBranch"
@@ -66,9 +72,11 @@
             android:layout_height="wrap_content"
             android:paddingStart="40dp"
             android:text="@string/exampleBeneficaryBankAddress"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnContinaer"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -78,8 +86,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginBottom="10dp"
+                android:clickable="false"
+                android:focusable="false"
                 android:text="@string/deleteTag"
                 android:textColor="#FFFFFF"
+                android:textSize="15sp"
                 app:backgroundTint="#93182F"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/buttonEdit"
@@ -92,9 +103,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="10dp"
+                android:clickable="false"
+                android:focusable="false"
                 android:text="@string/editButtonTag"
-                android:textColor="#FFFFFF"
-                app:backgroundTint="#FFC107"
+                android:textColor="@color/theme_color"
+                android:textSize="15sp"
+                app:backgroundTint="@color/logo_background"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"

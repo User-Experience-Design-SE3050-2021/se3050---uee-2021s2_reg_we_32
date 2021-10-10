@@ -8,11 +8,16 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.androiddev.peopleswave.model.Beneficiary;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
-public class addBenStep1 extends AppCompatActivity {
+public class EditBeneficiary extends AppCompatActivity {
 
+
+    Beneficiary beneficiary;
     Spinner spinnerPaymentMethod;
     Spinner spinnerBank;
     Spinner spinnerBranch;
@@ -20,15 +25,14 @@ public class addBenStep1 extends AppCompatActivity {
     EditText editTextAccountName;
     EditText editTextAccountEmail;
     EditText editTextAccountMobile;
-    Beneficiary beneficiary;
-
-
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_ben_step1);
+        setContentView(R.layout.activity_edit_beneficiary);
+        Intent intent =  getIntent();
+        beneficiary = (Beneficiary) intent.getSerializableExtra("BEN");
         spinnerPaymentMethod = (Spinner) findViewById(R.id.paymentMethodSpinner);
         spinnerBank = (Spinner) findViewById(R.id.spinnerBank);
         spinnerBranch = (Spinner) findViewById(R.id.spinnerBranch);
@@ -36,15 +40,25 @@ public class addBenStep1 extends AppCompatActivity {
         editTextAccountNumber= (EditText) findViewById(R.id.edBenAccountNumber);
         editTextAccountName = (EditText) findViewById(R.id.edBenAccountName);
         editTextAccountMobile = (EditText) findViewById(R.id.edBenAccountMobile);
+    }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
 
+        spinnerPaymentMethod.setSelection(((ArrayAdapter)spinnerBank.getAdapter()).getPosition(beneficiary.getPaymentMethod()));
+        spinnerBank.setSelection(((ArrayAdapter)spinnerBank.getAdapter()).getPosition(beneficiary.getBank()));
+        spinnerBranch.setSelection(((ArrayAdapter)spinnerBank.getAdapter()).getPosition(beneficiary.getBranch()));
 
-
+        editTextAccountNumber.setText(beneficiary.getAccountNumb());
+        editTextAccountName.setText(beneficiary.getAccountName());
+        editTextAccountEmail.setText(beneficiary.getAccountEmail());
+        editTextAccountMobile.setText(beneficiary.getAccountMobile());
 
     }
 
-    public void  navigateToStep2(View view){
-        beneficiary =  new Beneficiary();
+    public void onclickEdit(View view){
+        DatabaseReference dR = FirebaseDatabase.getInstance().getReference("beneficiary").child(beneficiary.getBeneficiaryId());
         beneficiary.setPaymentMethod(spinnerPaymentMethod.getSelectedItem().toString());
         beneficiary.setBank(spinnerBank.getSelectedItem().toString());
         beneficiary.setBranch(spinnerBranch.getSelectedItem().toString());
@@ -53,12 +67,10 @@ public class addBenStep1 extends AppCompatActivity {
         beneficiary.setAccountEmail(editTextAccountEmail.getText().toString());
         beneficiary.setAccountMobile(editTextAccountMobile.getText().toString());
 
-
-
-
-        Intent step2 =  new Intent(this,addBenfstep2.class);
-        step2.putExtra("BEN",beneficiary);
-        startActivity(step2);
+        dR.setValue(beneficiary);
+        Toast.makeText(this,"Beneficiary Details updated",Toast.LENGTH_LONG).show();
+        Intent intent =  new Intent(this,ManageFavBenficary.class);
+        startActivity(intent);
 
     }
 }

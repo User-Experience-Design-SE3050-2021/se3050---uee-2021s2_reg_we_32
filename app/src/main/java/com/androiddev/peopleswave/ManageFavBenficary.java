@@ -8,7 +8,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.androiddev.peopleswave.model.Beneficiary;
 import com.google.firebase.database.DataSnapshot;
@@ -33,6 +35,19 @@ public class ManageFavBenficary extends AppCompatActivity {
         beneficiaries = new ArrayList<>();
         databaseBeneficiary = FirebaseDatabase.getInstance().getReference("beneficiary");
         benListView = (ListView) findViewById(R.id.listBen);
+
+        benListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+//                Toast.makeText(getApplicationContext(), "DETAILS",Toast.LENGTH_SHORT);
+                Beneficiary selectedBeneficiary =  beneficiaries.get(i);
+                Log.d("DESC","RADA");
+                Intent intent =  new Intent(getApplicationContext(),ViewBeneficaryDetails.class);
+                intent.putExtra("BEN",selectedBeneficiary);
+                startActivity(intent);
+            }
+        });
+
 
 
     }
