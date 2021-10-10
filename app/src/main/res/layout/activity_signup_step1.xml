@@ -60,12 +60,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="20dp"
         android:text="Phone"
         android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_email_s1" />
+        tools:layout_editor_absoluteY="324dp" />
 
     <EditText
         android:id="@+id/et_phone_s1"
