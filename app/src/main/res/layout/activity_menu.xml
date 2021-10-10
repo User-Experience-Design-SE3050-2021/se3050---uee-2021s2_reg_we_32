@@ -19,7 +19,7 @@
             android:id="@+id/imageView6"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_marginStart="24dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="44dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -44,19 +44,20 @@
 
     <LinearLayout
         android:id="@+id/linearLayoutRaw1"
-        android:layout_width="403dp"
-        android:layout_height="203dp"
-        android:layout_marginTop="12dp"
-        android:paddingStart="24dp"
-        android:paddingEnd="24dp"
+        android:layout_width="371dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="40dp"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.714"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/acc_sum"
-            android:layout_width="170dp"
+            android:layout_width="164dp"
             android:layout_height="200dp"
             android:layout_marginRight="16dp"
             android:background="@drawable/whiterectangle">
@@ -93,7 +94,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/trns_service"
-            android:layout_width="170dp"
+            android:layout_width="164dp"
             android:layout_height="200dp"
             android:layout_marginRight="16dp"
             android:background="@drawable/whiterectangle"
@@ -134,20 +135,21 @@
 
     <LinearLayout
         android:id="@+id/linearLayoutRaw2"
-        android:layout_width="406dp"
-        android:layout_height="234dp"
-        android:layout_marginTop="12dp"
-        android:paddingStart="24dp"
-        android:paddingEnd="24dp"
+        android:layout_width="370dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="8dp"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayoutRaw1">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/paymentService"
-            android:layout_width="170dp"
+            android:layout_width="164dp"
             android:layout_height="200dp"
             android:layout_marginRight="16dp"
             android:background="@drawable/whiterectangle"
@@ -188,7 +190,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/creditCard"
-            android:layout_width="170dp"
+            android:layout_width="164dp"
             android:layout_height="200dp"
             android:layout_marginRight="16dp"
             android:background="@drawable/whiterectangle">
@@ -225,27 +227,23 @@
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="412dp"
-        android:layout_height="92dp"
-        android:layout_marginTop="114dp"
+        android:layout_width="355dp"
+        android:layout_height="90dp"
         android:background="@drawable/bottomnavbackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayoutRaw2"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
-            android:layout_width="401dp"
-            android:layout_height="92dp"
+            android:layout_width="341dp"
+            android:layout_height="93dp"
+            android:layout_marginEnd="8dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+            app:layout_constraintEnd_toEndOf="parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="98dp"
+                android:layout_width="84dp"
                 android:layout_height="wrap_content">
 
                 <ImageView
@@ -263,7 +261,7 @@
                     android:id="@+id/textView3N"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
+                    android:layout_marginStart="10dp"
                     android:text="@string/calc"
                     android:textColor="#000000"
                     app:layout_constraintStart_toStartOf="parent"
@@ -278,7 +276,7 @@
                     android:id="@+id/imageView13N1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="31dp"
+                    android:layout_marginStart="25dp"
                     android:layout_marginTop="11dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -289,7 +287,7 @@
                     android:id="@+id/textView3N1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
+                    android:layout_marginStart="5dp"
                     android:text="@string/fav"
                     android:textColor="#000000"
                     app:layout_constraintStart_toStartOf="parent"
@@ -307,7 +305,7 @@
                     android:id="@+id/imageView13N"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="31dp"
+                    android:layout_marginStart="25dp"
                     android:layout_marginTop="11dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -318,7 +316,7 @@
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
+                    android:layout_marginStart="18dp"
                     android:text="@string/Home_val"
                     android:textColor="#000000"
                     app:layout_constraintStart_toStartOf="parent"
@@ -326,14 +324,14 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="68dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <ImageView
                     android:id="@+id/imageView13N2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="28dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="12dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -344,7 +342,7 @@
                     android:id="@+id/textView3N2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="26dp"
+                    android:layout_marginStart="10dp"
                     android:text="@string/Back_val"
                     android:textColor="#000000"
                     app:layout_constraintStart_toStartOf="parent"
@@ -352,15 +350,15 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="78dp"
-                android:layout_height="wrap_content">
+                android:layout_width="76dp"
+                android:layout_height="54dp">
 
                 <ImageView
                     android:id="@+id/imageView13N3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="28dp"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="10dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/ic_gear"
@@ -370,7 +368,8 @@
                     android:id="@+id/textView3N3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="2dp"
                     android:text="@string/Settings_val"
                     android:textColor="#000000"
                     app:layout_constraintStart_toStartOf="parent"
