@@ -76,6 +76,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/button_border"
         android:fontFamily="@font/poppins"
+        android:onClick="navigateToLogin"
         android:text="Continue"
         android:textAllCaps="false"
         android:textSize="20sp"
