@@ -1,6 +1,27 @@
 <resources>
     <string name="app_name">people\'s wave</string>
 
+    <string-array name="service_providers">
+        <item>SLT Telecom</item>
+        <item>Water Board</item>
+        <item>Electricity Board</item>
+        <item>Dialog TV</item>
+        <item>Dialog Postpaid</item>
+    </string-array>
+
+    <string-array name="accounts">
+        <item>LKR 001-1-152-0-5841260</item>
+        <item>LKR 021-1-784-0-5832260</item>
+        <item>LKR 001-7-232-0-5125960</item>
+
+    </string-array>
+
+    <string-array name="credit_card_to">
+        <item>LKR ****-****-****-1260 test1</item>
+        <item>LKR ****-****-****-1784 test2</item>
+        <item>LKR ****-****-****-5210 test3</item>
+    </string-array>
+
     <string name="title_activity_flash_screen">flashScreen</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -56,8 +77,6 @@
     <string name="editButtonTag">EDIT</string>
     <string name="AddNewBeneficaryTag">Add New Beneficiary</string>
     <string name="OTTitle">One Time Bill Payment</string>
-    <string name="manageFavBills">Manage Favourite Bills</string>
-    <string name="AddNewBillerTag">Add New Payee</string>
     <string name="fundTransferDetails">Transfer funds to peoples Bank account</string>
     <string name="localTransfer">Transfer to local bank accounts</string>
     <string name="btbDescription">Transfer to a non account holding person</string>
@@ -71,6 +90,14 @@
     <string name="FavITB">Favourite Interbank Transfer</string>
     <string name="facBTDesc">"Fund transfer to registered  accounts "</string>
     <string name="favBenDesc"><![CDATA["Add,Edit  & Delete your Favourite Beneficary "]]></string>
+
+    <string name="manageFavBills">Manage Favourite Bills</string>
+    <string name="AddNewBillerTag">Add New Payee</string>
+    <string name="biller_add_msg">Favorite Biller has been added successfully</string>
+    <string name="addBillMsg_close_btn">CLOSE</string>
+    <string name="biller_delete_confirm_msg">Are Your Sure Want To Delete This?</string>
+    <string name="payment_service_menu_label">Payment Service</string>
+
 
 
 </resources>

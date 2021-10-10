@@ -11,6 +11,24 @@
         android:theme="@style/Theme.PeoplesWave">
 
         <activity
+            android:name=".AddBillerMsg"
+            android:exported="true" />
+        <activity
+            android:name=".CreditcardService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreditCardServiceConfirm"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentService"
+            android:exported="true" />
+        <activity
             android:name=".ForgotPassStep4"
             android:exported="true" />
         <activity
@@ -37,15 +55,12 @@
         <activity
             android:name=".ActivityInitialScreen"
             android:exported="true" />
-        
+        <activity android:name=".manageFavouriteBills" />
+        <activity android:name=".AddFavoriteBiller">
 
-
-        <activity android:name=".manageFavouriteBills"></activity>
-        <activity android:name=".addFavoriteBiller"></activity>
+        </activity>
         <activity android:name=".editFavoriteBiller" />
-        <activity android:name=".creditcardService" />
 
-       
         <activity
             android:name=".OneTimePaymentConfirmation"
             android:exported="true" />
@@ -61,8 +76,6 @@
         <activity
             android:name=".interbankTransferMenu"
             android:exported="true" />
-
-
         <activity
             android:name=".transferServices"
             android:exported="true" />
@@ -71,11 +84,7 @@
             android:exported="true" />
 
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data

@@ -20,7 +20,7 @@ public class Menu extends AppCompatActivity {
     }
 
     public void navigateToCreditCardService(View view){
-        Intent intent = new Intent(this,creditcardService.class);
+        Intent intent = new Intent(this, CreditcardService.class);
         startActivity(intent);
     }
 
@@ -30,7 +30,7 @@ public class Menu extends AppCompatActivity {
     }
 
     public void navigateToMangeBill(View view){
-        Intent intent = new Intent(this,addFavoriteBiller.class);
+        Intent intent = new Intent(this, AddFavoriteBiller.class);
         startActivity(intent);
     }
 }
